@@ -155,7 +155,7 @@ Para añadir nuevas funcionalidades:
 
 ## Licencia
 
-ISC
+Univercidad Universitaria de Colombia
 
 ## Versión
 
