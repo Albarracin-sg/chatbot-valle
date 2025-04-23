@@ -3,7 +3,7 @@ import OpenAI from "openai";
 // Controlador para manejar solicitudes POST al endpoint /api/openai
 export const OpenAIController = async (req, res) => {
   try {
-    // corrección del nombre del campo recibido en el cuerpo de la solicitud
+    //campo recibido en el cuerpo de la solicitud
     const { message } = req.body;
 
     // Validación: asegurarse de que se recibió el mensaje
