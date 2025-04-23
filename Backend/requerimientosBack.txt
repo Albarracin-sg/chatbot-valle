@@ -1,0 +1,44 @@
+# Requisitos del Backend para Chatbot Valle
+
+## Dependencias Principales
+- express: Framework web para Node.js
+- cors: Middleware para permitir solicitudes de origen cruzado
+- dotenv: Para gestión de variables de entorno
+- openai: Cliente oficial de OpenAI para Node.js
+
+## Dependencias de Desarrollo
+- nodemon: Herramienta para reinicio automático del servidor durante desarrollo
+
+## Comandos de Instalación
+
+### Instalación individual:
+```
+npm i express
+npm i cors
+npm i dotenv
+npm i openai
+npm i nodemon --save-dev
+```
+
+### Instalación en una línea:
+```
+npm i express cors dotenv openai && npm i nodemon --save-dev
+```
+
+## Variables de Entorno Necesarias
+Crear un archivo .env en la raíz del proyecto con:
+```
+OPENAI_API_KEY="tu-clave-api-de-openai"
+PORT=3500
+```
+
+## Requisitos del Sistema
+- Node.js (v16.x o superior recomendado)
+- npm (v8.x o superior recomendado)
+
+## Scripts Disponibles
+- npm start: Inicia el servidor en modo producción
+- npm run dev: Inicia el servidor con nodemon para desarrollo
+
+## Puerto
+El servidor se ejecuta por defecto en el puerto 3500 (configurable en .env)
